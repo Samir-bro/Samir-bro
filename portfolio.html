@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio🤵🏼</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/0fa8f298d3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- .............Home....................... -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><span id="job-title"></span></p>
+                <h1>Hello, I am <span>Samir</span><br> from Nepal.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ...................About....................... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" style="color:  #1FA0FF;">About me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus repudiandae quam suscipit,
+                        architecto beatae consequatur nobis aspernatur a rem voluptatem alias quod expedita repellat
+                        neque eligendi numquam dicta ducimus pariatur placeat repellendus perspiciatis? Sapiente, vero?
+                        Delectus doloremque sequi nostrum maxime itaque voluptatibus blanditiis cupiditate alias non.
+                        Doloremque asperiores neque commodi.
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Designer</span><br>UI / UX design</li>
+                            <li><span>Web development</span><br>Web software development</li>
+                            <li><span>App development</span><br>Currently studying</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2000-2010</span><br>Lorem ipsum dolor sit amet.</li>
+                            <li><span>2010-2020</span><br>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                            <li><span>2020-2030</span><br>Lorem consectetur adipisicing elit. Sint, dolores nisi.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015</span><br>Digital marketing.</li>
+                            <li><span>2016</span><br>UI/ UX</li>
+                            <li><span>2017</span><br>Software development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..............Services.............. -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" style="color:  #1FA0FF;">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Digital marketing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, facilis dolores ipsum possimus
+                        magnam ut.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, facilis dolores ipsum possimus
+                        magnam ut.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2>Software development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, facilis dolores ipsum possimus
+                        magnam ut.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...............Portfolio............. -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" style="color:  #1FA0FF;">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Web development</h3>
+                        <p>Developed some simple web app like calculator.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Digital marketing</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, at?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Software Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus deleniti voluptate illum
+                            explicabo amet?.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ..........contact............ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" style="color:  #1FA0FF;">Contact Me</h1>
+                    <div class="contact-info">
+                        <div>
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <p>Samir@gmail.com</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+9876543210</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Kathmandu, Nepal</p>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <a href="images/Samir cv.pdf" download class="btn btn2"><i class="fa-solid fa-download"></i>
+                        Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..........................footer.................... -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <p>Copyright 2023, All right reserved.</p>
+                </div>
+                <div class="footer-col-2">
+                    <div class="useful-links">
+                        <a href="#">Privacy policy</a>
+                        <a href="#">Terms of use</a>
+                        <a href="#">Return policy</a>
+                        <a href="#">Join affiliate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Job Titles Typing Effect
+        const jobTitles = ["Front end developer.", "Digital marketer.", "Web developer."];
+        let currentJobIndex = 0;
+        let currentText = jobTitles[currentJobIndex];
+        let charIndex = currentText.length;
+        let isDeleting = false;
+        const typingSpeed = 150;
+        const erasingSpeed = 50;
+        const delayBetweenJobs = 2000;
+
+        function typeJobTitle() {
+            const jobTitleElement = document.getElementById("job-title");
+
+            if (isDeleting) {
+                if (charIndex > 0) {
+                    currentText = jobTitles[currentJobIndex].substring(0, charIndex - 1);
+                    charIndex--;
+                    setTimeout(typeJobTitle, erasingSpeed);
+                } else {
+                    isDeleting = false;
+                    currentJobIndex = (currentJobIndex + 1) % jobTitles.length;
+                    setTimeout(typeJobTitle, typingSpeed);
+                }
+            } else {
+                if (charIndex < jobTitles[currentJobIndex].length) {
+                    currentText = jobTitles[currentJobIndex].substring(0, charIndex + 1);
+                    charIndex++;
+                    setTimeout(typeJobTitle, typingSpeed);
+                } else {
+                    isDeleting = true;
+                    setTimeout(typeJobTitle, delayBetweenJobs);
+                }
+            }
+
+            jobTitleElement.textContent = currentText;
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const jobTitleElement = document.getElementById("job-title");
+            jobTitleElement.textContent = jobTitles[currentJobIndex];
+            setTimeout(typeJobTitle, delayBetweenJobs);
+        });
+
+        // Tab Content Switcher
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove("active-link");
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
